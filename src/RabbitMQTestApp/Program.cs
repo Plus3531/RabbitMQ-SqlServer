@@ -13,7 +13,8 @@ namespace RabbitMQTestApp
     {
 
       //set the local connection string
-      RabbitMQSqlServer.LocalhostConnectionString = "";
+        RabbitMQSqlServer.LocalhostConnectionString =
+            "Data Source=PAULUSJ-LT;User ID=sa;Password=WhatEver1234;Initial Catalog=RabbitMQTest";
 
       RabbitMQSqlServer.pr_clr_InitialiseRabbitMq();
       Console.WriteLine("Rabbit is initialised. Press any key to send msg");

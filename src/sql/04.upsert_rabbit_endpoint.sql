@@ -17,8 +17,8 @@ GO
 
 SET NOCOUNT ON;
 
-EXEC rmq.pr_UpsertRabbitEndpoint @Alias = 'rabbitEp1',
-								 @ServerName = 'RabbitServer',
+EXEC rmq.pr_UpsertRabbitEndpoint @Alias = 'rabbit',
+								 @ServerName = 'PAULUSJ-LT',
 								 @Port = 5672,
 								 @VHost = 'testHost',
 								 @LoginName = 'rabbitAdmin',
